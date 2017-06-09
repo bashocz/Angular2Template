@@ -37,8 +37,9 @@ You can update application by following all the steps mentioned in webcast. Howe
 
 - It seems SPA template is for Angular 2.x and webcast is done on Angular 4.x (e.g. template doesn't include 'angular2-universal' package).
 
-** It has some consequences (e.g. different code, when calling http service, using 'ORIGIN_URL' instead, see template fetch-data.ts).
+	* It has some consequences (e.g. different code, when calling http service, using 'ORIGIN_URL' instead, see template fetch-data.ts).
 
 - Template in webcast has 'app.module.ts' (btw. where 'angular2-universal' is imported) but my installed template has 'app.module.shared.ts' instead.
-** template doesn't define "providers" variable (you need to update app.module.client.ts and app.module.server.ts).
+
+	* template doesn't define "providers" variable (you need to update app.module.client.ts and app.module.server.ts).
 
